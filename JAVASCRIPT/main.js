@@ -1,20 +1,20 @@
-const fruits = ['apples','oranges']
+const person = {
+    firstName: 'John',
+    lastName: 'Doe',
+    age: 30,
+    hobbies: ['music', 'movies'],
+    address: {
+        street: '50 main st',
+        city: 'Boston',
+        state: 'MA'
+    }
+}
 
-fruits[3] = 'grapes';
-fruits.push('mangos');
-fruits.unshift('strawberries');
-fruits.pop();
+person.email = 'john@gmail.com';
 
-console.log(Array.isArray(fruits))
-console.log(Array.isArray('fruits'))
 
-console.log(fruits.indexOf('oranges'))
+const {firstName, lastName, address: { city }} = person;
 
-console.log(fruits);
-
-/* const name='alex';
-const age=30;
-
-const hello = `My name is ${name} and I am ${age}`;
-
-console.log(hello); */
+console.log(firstName);
+console.log(city);
+console.log(person);
