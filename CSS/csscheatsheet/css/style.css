@@ -19,11 +19,29 @@ body{
 }
 
 .container{
-	width:80%;
+	
+	width:90%;
 	margin: auto;
 }
 
+.button{
+	background-color: #333;
+	color: #fff;
+	padding: 10px 15px;
+	border:none;
+}
+
+.button:hover{
+	background:red;
+	color: #fff;
+}
+
+.clr{
+	clear:both;
+}
+
 .box-1{
+
 	background-color:#333;
 	color: #fff;
 
@@ -70,5 +88,31 @@ body{
 	padding: 0;
 	list-style:square;
 	list-style: none;
-
 }
+
+.my-form{
+	padding: 80px;
+}
+
+.my-form .form-group{
+	padding-bottom:15px;
+}
+
+.my-form label{
+	display:block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+	padding: 8px;
+	width: 100%;
+}
+
+.block{
+	float:left;
+	width:33.3%
+	border:1px solid #ccc;
+	padding:10px;
+	box-sizing:border-box;
+}
+
+
